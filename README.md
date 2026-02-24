@@ -1,16 +1,24 @@
-# biodata
+# Biodata Flutter App 📱
 
-A new Flutter project.
+Aplikasi CRUD (Create, Read, Update, Delete) biodata siswa berbasis Flutter yang terintegrasi dengan database MySQL menggunakan API PHP.
 
-## Getting Started
+## 🚀 Fitur
+- **Tampil Data**: Menampilkan daftar biodata dari database.
+- **Tambah Data**: Input data siswa baru.
+- **Edit Data**: Memperbarui informasi biodata yang sudah ada.
+- **Hapus Data**: Menghapus data dari sistem.
+- **Detail View**: Melihat informasi lengkap per individu.
 
-This project is a starting point for a Flutter application.
+## 🛠️ Teknologi yang Digunakan
+- **Frontend**: [Flutter](https://flutter.dev/) (Dart)
+- **Backend**: PHP (sebagai REST API)
+- **Database**: MySQL
+- **HTTP Client**: Package `http` untuk koneksi Flutter ke API.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📁 Struktur Folder Utama
+```text
+lib/
+├── models/      # Model data (api.dart, msiswa.dart)
+├── views/       # Antarmuka pengguna (home, create, edit, details)
+├── widgets/     # Komponen UI reusable (form.dart)
+└── main.dart    # Titik masuk utama aplikasi
